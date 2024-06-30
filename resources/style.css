@@ -1,0 +1,171 @@
+/*colours
+Black: #000
+Embers: #B82601
+Ivory Black: #1D2731
+Stormy: #494E6B
+Cloud: #98878F
+Sunset: #985E6D
+Evening: #192231
+*/
+
+html {
+	font-size: 16px;
+}
+
+
+/*header*/
+
+header {
+    background-color: #B82601;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.header {
+	display: flex;
+    align-items: center;
+    padding: 1.25rem;
+	padding-right: 2.5rem;
+}
+
+h1 {
+    font-family: Arial;
+	font-weight: 700;
+	font-style: normal;
+    font-size: 3.4rem;
+    flex: 1;
+}
+
+h1 a {
+	color: #192231;
+	text-decoration: none;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+    margin-left: 4rem;
+}
+
+nav a {
+    color:hsl(0, 0%, 95%);
+    text-decoration: none;
+	font-family: Arial;
+	font-size: 1.25rem;
+	padding: 3px;
+}
+
+nav button {
+	background-color: #00000000;
+	color:hsl(0, 0%, 95%);
+	text-decoration: none;
+	border: none;
+	font-family: Arial;
+	font-size: 1.25rem;
+	padding: 3px;
+}
+
+/* The dropdown container */
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbutton {
+	font-size: 1.25rem;
+	border: none;
+	outline: none;
+	color: hsl(0, 0%, 95%);
+	padding: 3px;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0; /* Important for vertical align on mobile phones */
+}
+
+nav a:hover, .dropbutton:hover {
+	background-color: #494E6B;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #B82601;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.dropdown-content a:hover {
+	background-color: #494E6B;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+/*body*/
+
+body {
+    background-color: #1D2731;
+    color: #E7DFDD;
+    font-family: sans-serif;
+	font-style: normal;
+    padding-top: 6.0625rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+	color: #98878F;
+	margin-bottom: 0.5rem;
+	font-family: serif;
+	font-style: italic;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+
+/*footer*/
+
+footer {
+	background-color: #B82601;
+	width: 100%;
+	height: 100px;
+	padding: 32px 16px;
+	margin-top: 5vh;
+	box-sizing: border-box;
+}
+
+.footer {
+	margin: 11px 0;
+}
+
+.footer ul {
+	display: flex;
+	justify-content: center;
+}
+
+.footer li {
+	color: #1D2731;
+	font-size: 1.2rem;
+	font-weight: 600;
+	padding: 0 10rem;
+
+}
