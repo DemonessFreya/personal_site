@@ -150,6 +150,11 @@ body {
 	height: 100vh;
 }
 
+.main img {
+	height: 300px;
+	width: 300px;
+}
+
 h2 {
 	font-size: 2.5rem;
 	color: #98878F;
