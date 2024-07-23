@@ -142,12 +142,14 @@ body {
 	color: #E7DFDD;
 	font-family: sans-serif;
 	font-style: normal;
-	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 	padding-top: 6.0625rem;
 }
 
 .main {
-	height: 100vh;
+	flex: 1;
 }
 
 .main img {
@@ -176,14 +178,12 @@ footer {
 	height: 20%;
 	padding: 2rem;
 	box-sizing: border-box;
-	position: absolute;
-	bottom: auto;
-	left: 0;
 }
 
 .footer {
 	margin: 0;
 	height: 5.375rem;
+	align-content: center;
 }
 
 .footer ul {
